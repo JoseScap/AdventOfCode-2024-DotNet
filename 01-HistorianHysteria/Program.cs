@@ -6,14 +6,14 @@
 
         static int Main(string[] args)
         {
-            (var leftList, var rightList) = ReadInput();
+            ReadInput(out var leftList, out var rightList);
             return GetResult(leftList, rightList);
         }
 
-        public static (List<int>, List<int>) ReadInput()
+        public static void ReadInput(out List<int> leftList, out List<int> rightList)
         {
-            List<int> leftList = new List<int>();
-            List<int> rightList = new List<int>();
+            leftList = new List<int>();
+            rightList = new List<int>();
 
             foreach (string line in File.ReadLines(INPUTPATH))
             {
@@ -33,8 +33,6 @@
 
             leftList.Sort();
             rightList.Sort();
-
-            return (leftList, rightList);
         }
 
         public static int GetResult(List<int> leftList, List<int> rightList) =>
