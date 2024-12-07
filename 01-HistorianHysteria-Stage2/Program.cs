@@ -2,9 +2,9 @@
 {
     internal class Program
     {
-        static string INPUTPATH = "Input.txt";
+        public static string INPUTPATH = "Input.txt";
 
-        static int Main(string[] args)
+        public static int Main(string[] args)
         {
             (var leftList, var rightList) = ReadInput();
             var dictionary = MakeDictionary(leftList, rightList);
