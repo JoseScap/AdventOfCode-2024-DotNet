@@ -3,5 +3,5 @@
 ################################################################################
 
 /.vs
-/01-HistorianHysteria/bin/Debug/net8.0
-/01-HistorianHysteria/obj
+/**/obj/
+/**/bin/
