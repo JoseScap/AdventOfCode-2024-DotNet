@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HistorianHysteria", "01-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Red-Nosed-Reports", "02-Red-Nosed-Reports\02-Red-Nosed-Reports.csproj", "{F3B82512-8704-461C-89E1-3A557BD7566E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MullItOver", "03-MullItOver\03-MullItOver.csproj", "{D0335827-EA5D-4BB9-AE4C-49B1467CBDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F3B82512-8704-461C-89E1-3A557BD7566E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B82512-8704-461C-89E1-3A557BD7566E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B82512-8704-461C-89E1-3A557BD7566E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0335827-EA5D-4BB9-AE4C-49B1467CBDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0335827-EA5D-4BB9-AE4C-49B1467CBDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0335827-EA5D-4BB9-AE4C-49B1467CBDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0335827-EA5D-4BB9-AE4C-49B1467CBDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
